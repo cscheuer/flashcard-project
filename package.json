@@ -17,7 +17,7 @@
   "scripts": {
     "start": "concurrently \"npm run start:server\" \"npm run start:react\"",
     "start:react": "react-scripts start",
-    "start:server": "json-server /Users/crista/indeed/practice/chegg-react/Project-_Flashcards-_Qualified_-Node_18--Crista_Scheuer-Solution/data/db.json --port 8080",
+    "start:server": "json-server ./data/db.json --port 8080",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
